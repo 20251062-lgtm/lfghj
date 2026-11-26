@@ -1,0 +1,68 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>熱血籃球 · 聯絡我們</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">🔥 熱血籃球</div>
+        <nav class="navbar">
+            <a href="index.html">首頁</a>
+            <a href="products.html">球鞋裝備</a>
+            <a href="contact.html" class="active">聯絡我們</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h1>聯絡我們</h1>
+            <p>想了解更多裝備或合作邀約？歡迎與熱血籃球團隊聯繫！</p>
+        </section>
+
+        <!-- 聯絡表單 -->
+        <section class="contact-section">
+            <div class="contact-info">
+                <h2>一起打場好球</h2>
+                <p>填寫表單，我們將盡快回覆你。</p>
+                <ul class="contact-details">
+                    <li>📧 hello@hotbloodbasketball.tw</li>
+                    <li>📞 02-9876-5432</li>
+                    <li>📍 台北市熱血球場路88號</li>
+                </ul>
+                <div class="social-links">
+                    <span>追蹤我們：</span>
+                    <a href="#">IG</a>
+                    <a href="#">FB</a>
+                    <a href="#">YT</a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" name="name" placeholder="你的名字" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">電子郵件</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">訊息</label>
+                    <textarea id="message" name="message" rows="5" placeholder="想對我們說的話..." required></textarea>
+                </div>
+                <button type="submit" class="cta-btn">送出訊息</button>
+                <p id="formFeedback" class="form-feedback"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2025 熱血籃球 · 每一球都全力以赴</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
